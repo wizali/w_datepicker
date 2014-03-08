@@ -1,0 +1,12 @@
+项目对时间选择器要求比较特殊，既要求年月日关联选择，又希望可以自定义时间格式，比如单独选年，年月，年月日，月日。。。。
+var test = new picker.datePicker({
+	id : 'id',
+	width:'width',
+	height:'height',
+	.....
+});
+test.setValue("2013-10-10");
+test.getValue();
+test.onSelect = function (date){
+	.....
+}
